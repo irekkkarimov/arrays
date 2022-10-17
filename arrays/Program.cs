@@ -5,7 +5,7 @@ class Program
     public static void Main()
     {
         Random random = new Random();
-        int[] array = new int[20];
+        int[] array = new int[random.Next(10, 20)];
         for (int i = 0; i < array.Length; i++)
         {
             array[i] = random.Next();
